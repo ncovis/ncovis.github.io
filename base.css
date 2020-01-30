@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    transition: all .2s;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2a3436;
+    background-image: url('coro.jpg');
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    color: #9ab4b9;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    padding: 35px;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.corner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:after {
+    content: " →"
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a.na {
+    opacity: 0.3;
+    cursor: default;
+}
+
+small {
+    opacity: 0.3;
+}
